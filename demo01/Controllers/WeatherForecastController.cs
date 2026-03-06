@@ -8,7 +8,7 @@ public class WeatherForecastController : ControllerBase
 {
     private static readonly string[] Summaries = new[]
     {
-        "ww", "Bracing", "ccc", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+        "ww", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
 
     private readonly ILogger<WeatherForecastController> _logger;
@@ -29,4 +29,4 @@ public class WeatherForecastController : ControllerBase
         })
         .ToArray();
     }
-}
+//Xin chao, toi la Phuoc
